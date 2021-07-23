@@ -1,10 +1,6 @@
-animals=[
-    'rabbit',
-    'dog', //마지막 아이템 뒤에 ','를 붙이는 것을 Trailing comma 라고한다
-    'cat',
-    'hamster',
-]
+for j in range(1,10+1):
+    if j%5==0:
+        print('world')
+    else:
+        print(j)
 
-
-for _ in range(1,10+1):
-    print('hello')
